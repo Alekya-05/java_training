@@ -4,11 +4,11 @@ public class day10 {
     }
 
     public static void mergeArrays(int[] nums1,int m,int[] nums2,int n) {
-        //int arr[]=new int[m+n];
+        int[]  newarr=new int[m+n];
 
         int p1=0;
         int p2=0;
-        //int p3=0;
+        //int p3=0; 
         
 
         while(p1<m && p2<n) {
